@@ -5,3 +5,9 @@
 --设置leader key
 vim.g.mapleader = ","
 vim.g.maplocalleader = ","
+
+--Folding
+vim.opt.foldcolumn = "2"
+vim.opt.foldlevel = 90
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
